@@ -1,0 +1,181 @@
+﻿@charset "utf-8";
+
+::-webkit-input-placeholder {
+    color: #b7b7b7;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+:-moz-placeholder {
+    color: #b7b7b7;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+::-moz-placeholder {
+    color: #b7b7b7;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+:-ms-input-placeholder {
+    color: #b7b7b7;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+input:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px var(--black5) inset !important;
+    box-shadow: 0 0 0px 1000px var(--black5) inset !important;
+}
+
+/* input[type="tel"],
+input[type="url"],
+input[type="email"],
+input[type="number"] {
+    font-family: arial;
+} */
+.importArea {
+    background-color: var(--black5);
+}
+
+.inputstyle,
+textarea,
+select {
+    width: 100%;
+    height: 50px; 
+    padding: 10px 5px;
+    font-size: 18px;
+    text-shadow: none;
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-user-select: text;
+    user-select: text;
+    outline: none;
+    box-shadow: none;
+    border-width: 0;
+    border-color: #e0e0e0;
+    border-style: solid;
+    color: var(--black0);
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.inputstyle:focus {
+    border-color: var(--b)
+}
+
+button[disabled],
+input[disabled] {
+    color: #fff;
+    background-color: #c9c9c9;
+    background: -ms-linear-gradient(right, #c2c2c2, #c9c9c9);
+    background: -moz-linear-gradient(right, #c2c2c2, #c9c9c9);
+    background: -webkit-gradient(linear, 100% 0%, 0% 0%, from(#c2c2c2), to(#c9c9c9));
+    background: -webkit-linear-gradient(right, #c2c2c2, #c9c9c9);
+    background: -o-linear-gradient(right, #c2c2c2, #c9c9c9);
+    border-width: 0;
+    cursor: no-drop;
+    -webkit-opacity: 1;
+    opacity: 1;
+}
+
+select {
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+textarea { 
+    resize: none;
+    overflow: auto;
+    outline: none;
+}
+
+.agreeCheck {
+    width: 100%;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #999;
+    display: inline-block;
+    position: relative;
+}
+
+.check {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.agreeCheck input[type=checkbox],
+.check input[type=checkbox],
+.check input[type=radio] {
+    display: none;
+    visibility: hidden;
+}
+
+.agreeCheck label,
+.check label {
+    line-height: 20px;
+    padding: 0 0 0 25px;
+    color: #999;
+    display: inline-block;
+    position: relative;
+}
+
+.agreeCheck label::before,
+.check label::before {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    top: 0;
+    display: inline-block;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    content: "";
+    text-align: center;
+    vertical-align: text-top;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+}
+
+.agreeCheck label:after,
+.check label:after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    font-family: iconfont;
+    position: absolute;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.agreeCheck input[type=checkbox]:checked+label:after,
+.check input[type=checkbox]:checked+label:after,
+.check input[type=radio]:checked+label:after {
+    opacity: 1;
+    background-color: var(--a_1);
+    content: "\e928";
+}
+
+.forms .agreeCheck label span,
+.forms .check label span {
+    font-size: 14px;
+    color: #999;
+}
+
+.forms .check label p {
+    font-size: 16px;
+    color: #666;
+}

@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4140642 */
+  src: url("") format('woff2'),
+       url("") format('woff'),
+       url("") format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-GlideUp:before {
+  content: "\ea34";
+}
+
+.icon-lock-circle:before {
+  content: "\e834";
+}
+
+.icon-arrow-small-up:before {
+  content: "\e95a";
+}
+
+.icon-arrow-small-right:before {
+  content: "\e95b";
+}
+
+.icon-arrow-small-down:before {
+  content: "\e95c";
+}
+
+.icon-arrow-small-left:before {
+  content: "\e95d";
+}
+
+.icon-wallet:before {
+  content: "\ea33";
+}
+
+.icon-twitter:before {
+  content: "\ea09";
+}
+
+.icon-up:before {
+  content: "\ea31";
+}
+
+.icon-do:before {
+  content: "\ea32";
+}
+
+.icon-OpenSea-fill:before {
+  content: "\ed04";
+}
+
+.icon-discord:before {
+  content: "\ea0a";
+}
+
+.icon-BLUR:before {
+  content: "\ea82";
+}
+
+.icon-click:before {
+  content: "\ea18";
+}
+
+.icon-drag:before {
+  content: "\ea16";
+}
+
